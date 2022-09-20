@@ -1,7 +1,7 @@
 // 2.1
 (function () {
-  let firstBlockToggle = document.querySelector(".btn-warning");
-  let firstBlockSection = document.querySelector(".first-block");
+  const firstBlockToggle = document.querySelector(".btn-warning");
+  const firstBlockSection = document.querySelector(".first-block");
 
   firstBlockToggle.addEventListener("click", function () {
       firstBlockSection.classList.toggle("container--closed");
@@ -10,8 +10,8 @@
 
 // 2.2
 (function () {
-  let secondBlockToggle = document.querySelector(".btn-success");
-  let thirdContainer = document.querySelector(".container__third");
+  const secondBlockToggle = document.querySelector(".btn-success");
+  const thirdContainer = document.querySelector(".container__third");
 
   secondBlockToggle.addEventListener("click", function () {
     thirdContainer.classList.toggle("order");

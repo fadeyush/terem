@@ -11,9 +11,7 @@
 
     const formInfo = document.createElement('div');
 
-    formInfo.innerHTML = `
-          <div>${json}</div>
-          `;
+    formInfo.textContent = json;
   
     document.querySelector('body').append(formInfo);
 
